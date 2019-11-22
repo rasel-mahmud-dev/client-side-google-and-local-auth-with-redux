@@ -1,0 +1,75 @@
+.google {
+  text-align: center;
+}
+
+
+.google_signIn {
+  width: 258px;
+  height: 45px;
+  background-color: #fff;
+  box-shadow: 0px 1.5px 3px 0px grey;
+  border-radius: 5px;
+  border: 1px solid #ded9d9b0;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+
+  .google_logo {
+    line-height: 0px;
+
+    img {
+      width: 30px;
+    }
+  }
+
+  .text {
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 500;
+    color: #6f6f6f;
+  }
+}
+
+.login_form {
+  margin: auto;
+  width: 350px;
+  border: 1px solid #b7b7b7bf;
+  box-shadow: 0 0 2px 0px #a5a5a580;
+  padding: 20px;
+  margin-top: 20px;
+
+  h1 {
+    text-align: center;
+    color: #565656;
+    margin-top: 0px;
+  }
+
+  .user_avatar {
+    width: 150px;
+    margin: auto;
+
+    img {
+      width: 100%;
+      border-radius: 100%;
+    }
+  }
+
+}
+
+.or {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #6f6b6b;
+  padding-top: 3px;
+}
+
+.forget_password_link {
+  display: inline-block;
+  color: #2010fa;
+  font-size: 14px;
+  padding: 5px 0px;
+}
+

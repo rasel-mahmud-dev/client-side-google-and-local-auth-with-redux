@@ -1,0 +1,26 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "username": "RaseL Mahmud",
+      "email": "raselmr005@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "id": "34324324"
+    },
+    {
+      "username": "tase",
+      "email": "rasel@gmail.com",
+      "password": "123",
+      "id": "--fVjAF"
+    },
+    {
+      "username": "Raju",
+      "email": "mahmudraju009@gmail.com",
+      "password": "123",
+      "id": "du-iQo8"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+.input_group {
+  padding: 6px 0px;
+
+  .label {
+    padding: 0px 0px 5px 0px;
+    display: block;
+    text-transform: capitalize;
+  }
+
+  .input_area {
+    position: relative;
+    width: 100%;
+    border: 1px solid #8e8b8b;
+    box-shadow: 0 0 2px 0px #4a4646c9;
+    border-radius: 3px;
+    padding: 4px 10px;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+
+    .input {
+      width: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+      padding-right: 20px;
+      box-sizing: border-box;
+
+    }
+
+    .input_validate_icon {
+      position: absolute;
+      margin: 0 5px;
+      right: 0px;
+      display: inline-block;
+      background: transparent;
+      color: red;
+      font-size: 18px;
+    }
+
+    .i_success {
+      color: rgb(2, 185, 2);
+    }
+  }
+
+  .input_active{
+    border: 1px solid #4061f5 !important;
+    box-shadow:0 0 1px 2px #004eff73;
+    outline-color: #1b36af !important
+  }
+
+
+  .error_input {
+    &:hover {
+      border: 1px solid #f5411d;
+      box-shadow: 0 0 2px 0px #ff0000c9;
+    }
+  }
+
+  .success_input {
+    &:hover {
+      border: 1px solid rgb(2, 185, 2);;
+      box-shadow: 0 0 3px 0px rgb(6, 128, 6);;
+    }
+  }
+
+  .input_error_message {
+    color: #ff2525;
+    font-size: 14px;
+    padding: 4px 0px 0px 0px;
+  }
+}
+
+
+
+//  Input Loading Animation
+.input_loading {
+  position: absolute;
+  margin: 0 5px;
+  right: -3px;
+  display: inline-block;
+  background: transparent;
+  color: red;
+  font-size: 18px;
+  width: 20px;
+  box-sizing: border-box;
+}
+
+.input_loading span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid;
+  border-radius: 100%;
+  border-color: rebeccapurple rebeccapurple transparent transparent;
+  animation: spiner 1s linear infinite;
+}
+
+@keyframes spiner {
+  0% {
+    transform: rotate(0deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
+}
+
+.input_loading span:nth-child(1) {
+  animation-delay: 0.3ms;
+}
+
